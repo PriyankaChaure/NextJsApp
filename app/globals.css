@@ -71,3 +71,26 @@ body {
   font-weight: bold;
   
 }
+.search-container {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.search-container label {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 2px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.search-input:focus {
+  outline: 1px solid #89fe23;
+  border-color: #8945ff;
+}

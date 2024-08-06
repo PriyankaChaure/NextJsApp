@@ -6,6 +6,10 @@ const sidebarItems = [
     { name: "Home", href: "/" },
     { name: "About", href: "/About" },
     { name: "Product", href: "/Product" },
+    { name: "Employee", href: "/Employee" },
+    { name: "Parallel", href: "/Parallel" },
+    { name: "Student", href: "/Student" },
+    { name: "Partial", href: "/Partial" },
 ];
 
 export default function Sidebar() {
